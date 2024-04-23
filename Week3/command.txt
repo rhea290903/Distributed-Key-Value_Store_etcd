@@ -1,0 +1,8 @@
+For Unit Test:
+py -m unittest unitTest
+
+* UnitTest ->used for creating  test cases by creating subclasses of "unittest.testcase"
+* unittest.testcase has assert functions which check condition in the test cases
+* @patch(cc.etcd3.client)->decorator provided unittest.mock
+  cc.etcd3.client->allows use and control etcd3.client within the test function
+* mock_client is created by patch ,it represents cc.etcd3.client
